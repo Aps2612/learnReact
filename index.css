@@ -1,0 +1,20 @@
+ #id{
+    display: block;
+    margin-left: center;
+    margin-right: center;
+    size : 100px;
+}
+
+.icon{
+    align-items: start;
+    size: 100%;
+}
+
+.aps{
+    text-align: center;
+   margin-left: 0%;
+   margin-bottom: 50%;
+   margin-right: 100px;
+   /* margin-left: 100px; */
+
+}    
