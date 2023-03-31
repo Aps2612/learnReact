@@ -36,7 +36,8 @@ root.render(< HeaderComponent />)
 
 /**
  * Rules
- * GOOD PRACTICE - Use  Capiyal letter to start the name*  
+ * GOOD PRACTICE - Use  Capital letter to start the name of functional component*  
+ * use small letter to write nameof an element
  * 
  * Funtional components are normal functions that return some piece of JSX code
  * mandatory to wrap inside parenthesis for multiple lines of react code

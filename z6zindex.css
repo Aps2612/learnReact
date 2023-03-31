@@ -1,0 +1,40 @@
+.header{
+    display : flex;
+    justify-content: space-between;
+    margin : 10px;
+    border : 1px solid black;
+    height: 100px;
+}
+
+.header > img {
+    width : 150px;
+}
+
+.header > ul {
+    display : flex;
+    list-style-type: none;
+    padding : 1px;
+}
+
+.header > ul >li {
+    margin : auto;
+    padding : 5px;
+    
+}
+
+.cards {
+    width : 200px; 
+    border: 1px solid black;
+    padding : 10px;
+    margin : 20px;
+}
+.cards > img {
+    width : 100%;
+}
+
+.body{
+    display : flex;
+     padding : 20px;
+     /* border : 1px solid black; */
+     /* flex-wrap: wrap; */
+ }

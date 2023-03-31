@@ -1,20 +1,51 @@
- #id{
-    display: block;
-    margin-left: center;
-    margin-right: center;
-    size : 100px;
+
+
+   .list {
+    display : flex;
+   }
+.header{
+    display : flex;
+    justify-content: space-between;
+    margin : 10px;
+    border : 1px solid black;
+    height: 100px;
+}
+.body{
+   display : flex;
+    padding : 5px;
+    white-space: 10px;
 }
 
-.icon{
-    align-items: start;
-    size: 100%;
+.logo{
+    width : 50px;
 }
 
-.aps{
-    text-align: center;
-   margin-left: 0%;
-   margin-bottom: 50%;
-   margin-right: 100px;
-   /* margin-left: 100px; */
+.nav-items > ul{
+    list-style-type : none;
+    display: flex;
+}
 
-}    
+.body {
+    list-style-type: none;
+    display : flex;
+    flex-wrap: wrap;
+}
+.body > ul > li {
+    /* display : flex; */
+    padding : 20px;
+
+}
+
+.card {
+    width : 200px; 
+    border: 1px solid black;
+    padding : 10px;
+    margin : 10px;
+}
+.card > img {
+    width : 100%;
+}
+
+.nav-items > ul > li {
+    padding : 5px;
+}
